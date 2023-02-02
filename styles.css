@@ -14,7 +14,8 @@
 
  .top-container {
     /* padding-top: 1100px;  */
-    height: 103vh;
+    height: 100%;
+    width: 100%;
     background-color: #F2AA6B;
     
      /* position: relative;   */
@@ -23,7 +24,7 @@
  .middle-container {
     background-color: rgb(247, 247, 247); 
     height: 100%;
-    padding: 10vh;   
+    padding: 10%;   
       
  }
 
@@ -39,8 +40,7 @@
  .bottom-container {
     background-color: rgb(247, 247, 247);
     height: 100%;
-    padding: 10vh; 
-
+    padding: 10%; 
  }
 
  .footer {
@@ -62,15 +62,16 @@
 
 h1 {
     font-family: 'DM Serif Display', serif;  
-    font-size: 10em; 
+    font-size: 8em; 
 }
 h1.name {
     /* top:198px;
     left: 650px;
     position:absolute;
     text-align:center;  */
-    top: 50%;
-    transform: translateY(200%);
+    position: relative;
+    padding-top: 20%;
+    /* transform: translateY(200%); */
 
 
 }
@@ -110,18 +111,27 @@ h3 {
     border-radius: 100%;
 }
 
-.lady2 {
+img.lady {
     /* margin: 50px auto; */
-    position: absolute;
-    top: 400px;
-    right: 450px;
+    position: relative;
+    width: 20%;
+    top: 50%; 
 }
 
-.lady3 {
+img.lady2 {
     /* margin: 50px auto; */
     position: absolute;
-    top: 400px;
-    left: 450px;
+    width: 20%;
+    top: 30%; 
+    right: 13%;
+}
+
+img.lady3 {
+    /* margin: 50px auto; */
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    left: 12%;
 }
 
 a:link {
@@ -201,7 +211,8 @@ dl.skillList {
 }
 
 img.border {
-    /* position: absolute; */
+    position: relative;
+    top: 20%;
     width: 100%;
     bottom: 0;
 }
