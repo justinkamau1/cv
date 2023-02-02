@@ -1,0 +1,289 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+
+    text-align: center;
+}
+
+ .top-container {
+    /* padding-top: 1100px;  */
+    height: 103vh;
+    background-color: #F2AA6B;
+    
+     /* position: relative;   */
+ }
+
+ .middle-container {
+    background-color: rgb(247, 247, 247); 
+    height: 100%;
+    padding: 10vh;   
+      
+ }
+
+ .greeting {
+    display: block;
+    width: 50%;
+    margin: 4% auto;
+ }
+ h3.languages {
+    font-size: 2em;
+ }
+
+ .bottom-container {
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    padding: 10vh; 
+
+ }
+
+ .footer {
+    background-color: #ffbc7d;
+    height: 100%;
+    padding: 5vh;      
+ }
+
+ hr.bottom {
+    border-bottom: 1px solid rgb(72, 0, 255);
+    width: 100%;
+
+ }
+
+/* h1, h2, h3 { */
+    /* font-family: 'DM Serif Display', serif;   */
+    /* font-size: 2.5rem;  */
+/* } */
+
+h1 {
+    font-family: 'DM Serif Display', serif;  
+    font-size: 10em; 
+}
+h1.name {
+    /* top:198px;
+    left: 650px;
+    position:absolute;
+    text-align:center;  */
+    top: 50%;
+    transform: translateY(200%);
+
+
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;  
+    font-size: 4rem; 
+}
+
+h2.description {
+    font-family: 'Shrikhand', cursive; 
+    position: relative;
+
+    /* top: 500px;
+    left: 860px;
+    position:absolute;
+    text-align:center; */
+
+    top: 30%;
+    transform: translateY(30%);
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;  
+    /* font-size: 2.5rem;  */
+    font-size: 4rem; 
+}
+
+/* img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
+
+.headshot {
+    width: 20%;
+    margin: 20px auto;
+    border-radius: 100%;
+}
+
+.lady2 {
+    /* margin: 50px auto; */
+    position: absolute;
+    top: 400px;
+    right: 450px;
+}
+
+.lady3 {
+    /* margin: 50px auto; */
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+
+a:link {
+    color: rgb(0, 68, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:visited {
+    color: rgb(255, 174, 188);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #f3ecec;
+    border: none;
+    /* color: white; */
+    padding: 15px 32px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 2em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.languages {
+    display: inline-block;
+    margin: 4% auto;
+}
+
+.LE {
+    display: inline-block;
+    margin: 6% auto;
+}
+
+dl.jobs {
+    width: 50%; 
+    float: left;
+    top: 1em; 
+}
+
+img.bulb {
+    width: 50%;
+    float: right;
+}
+
+img.prog {
+    width: 50%; 
+    float: left;
+}
+
+h3.languages {
+    font-size: 2em;
+}
+
+img.puzzle {
+    width: 50%; 
+    float: left;
+    top: 12px;
+    
+}
+
+.skills {
+    display: inline-block;
+    margin: 6% auto;
+}
+
+dl.skillList {
+    width: 50%;
+    float: right;
+}
+
+img.border {
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0;
+}
+
+hr {
+    width: 0%;
+    min-width: 20%;
+    max-width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #666;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px #f9f9f9;
+}
+
+p {
+    font-size: 2em;
+}
+
+dl {
+    font-size: 2em;
+    margin: 5% auto;
+}
+
+ul {
+    font-size: 2em;
+    list-style: none;
+}
+
+.contact {
+    height: 100%;
+    margin-top: 6%;
+}
+
+body.contactPage {
+    background-color: #F2AA6B;
+}
+
+.info {
+    font-family: 'DM Serif Display', serif;  
+
+    font-size: 1em;
+    margin: 7% auto;
+}
+
+.card {
+    box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 650px;
+	width: 700px;
+    padding: 30px;
+    margin: 4% auto;
+    
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.input {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+}
+
+
+
+
+
